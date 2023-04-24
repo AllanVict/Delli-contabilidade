@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.first-top-itens{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100vw;
+    align-items: center;
+}
+.first-top-itens .tittle-page{
+    font-size: 30px;
+    margin-right: 530px;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.top-right .painel-control{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #CCC;
+    margin-right: 25px;
+}
+.top-right .top-right-photo{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.all-itens{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    background-color: #C5C9F8;
+    border:1px solid black;
+    max-width: 110vw;
+    flex-wrap: wrap;
+    height:auto;
+    width: auto;
+    margin:30px;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 40px;
+    margin-left: 25px;
+    font-weight: 700;
+
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-itens-right{
+    display: flex;
+    height: 35px;
+
+}
+.item-left{
+    background-color: blue;
+    margin-right: 15px;
+    display: flex;
+    width: 180px;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.item-right{
+    background-color: red;
+    display: flex;
+    border-radius: 15px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.select-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+}
+.selec-box-itens{
+    width: 250px;
+    background-color: white;
+    height: 150px;
+    position: absolute;
+    margin-top: 240px;
+}
+.selec-box-itens ul{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selec-box-itens ul li:hover{
+    background-color: #CCC;
+    width: 250px;
+    display: flex;
+    justify-content: inherit;
+}
+.filter-circle{
+    display: flex;
+    padding: 5px;
+    width: 500px;
+    
+    
+}
+.filter-circle div{
+    align-items: center;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+.filter-names{
+    display: flex;
+}
+.circles-full.selected{
+    background-color: black;
+}
+.circles-full{
+    width: 40px;
+    height: 38px;
+    border-radius: 1px solid black;
+    border-radius: 100%;
+    background-color: cornsilk;
+    cursor: pointer;
+    
+}
+
+.window-info{
+    width: 100%;
+    height: 100px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    background-color: white;
+
+}
+.window-info .usuario div{
+    align-items: center;
+    display: flex;
+    flex: row;
+    width: 550px;
+    
+}
+.usuario-title{
+    display: flex;
+    justify-content: center;
+    background-color: #B4B4B4;
+}
+a{
+    margin-right: 50px;
+}
+.ali{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.usuario{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.usuario img{
+    width: 45px;
+    height: 45px;
+    margin: 0 15px 0 10px;
+    border-radius: 50%;
+}
+.usuario-txt{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.status, .esperado, .registrado, .salario, .matricula{
+    width: 150px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+

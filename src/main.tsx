@@ -4,15 +4,20 @@ import './assets/style.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Main from "./pages/Main";
 import Contact from "./pages/Contact"
+import { PanelControl } from './pages/PanelControl';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Main/>
+    //path: "/",
+    //element: <Main/>
   },
   {
     path: "/contact",
     element: <Contact/>
+  },
+  {
+    path:"/",
+    element: <PanelControl/>
   }
 ])
 
